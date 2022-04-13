@@ -3,7 +3,7 @@
 
 ### 解决方案
 1. package.json
-```
+```json
 eslintConfig: {
   "rules": {
     "vue/no-unused-components": "off"
