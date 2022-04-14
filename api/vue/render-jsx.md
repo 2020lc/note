@@ -1,5 +1,14 @@
 # render
 
+## 基本用法
+```
+  // 示例1：<div><div>
+  render: function(h) {
+    return h('div')
+  }
+  // 示例2：<div id='test' class='demo'>
+```
+
 ---
 # jsx
 
