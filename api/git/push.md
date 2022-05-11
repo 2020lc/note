@@ -1,3 +1,5 @@
++ 删除远程分支：`git push origin --delete branchName`
+
 ## 问题1
 > ! [rejected] main -> main (fetch first) error: failed to push some refs to
 
