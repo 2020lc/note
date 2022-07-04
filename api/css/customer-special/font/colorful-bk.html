@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>colorful-bk</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      background-color: rgba(0, 0, 0, .6);
+    }
+
+    h1 {
+      position: relative;
+      text-transform: uppercase;
+      font-size: 84px;
+      color: #333;
+    }
+
+    h1::after {
+      content: 'hello world';
+      color: transparent;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-image: linear-gradient(to right, #fea, #efb, #bcf, #f0a, #0fc);
+      background-clip: text;
+      -webkit-background-clip: text;
+      animation: highLight 5s ease-in-out infinite alternate;
+    }
+
+    @keyframes highLight {
+      0% {
+        clip-path: circle(64px at 0% 50%);
+      }
+
+      100% {
+        clip-path: circle(64px at 100% 50%);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1>hello world</h1>
+</body>
+
+</html>

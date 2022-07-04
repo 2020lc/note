@@ -36,7 +36,7 @@
   > 上一次执行结果的引用 
 
 + $i
-  > 相当于npm  
+  > 相当于npm，需要安装chrome插件`console importer`
   > 例：安装lodash, $i('lodash')
 
 + queryObject 对象查询
